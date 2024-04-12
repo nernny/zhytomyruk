@@ -533,6 +533,7 @@ strong {
       /* width: 400px; */
       width: 100%;
       transform: scale(70%);
+      box-shadow: 0px 0px 25px 5px #858585;
       border-radius: 50%;
       opacity: 1;
   }
