@@ -1,14 +1,3 @@
-/*
-
-Tooplate 2136 Kool Form Pack
-
-https://www.tooplate.com/view/2136-kool-form-pack
-
-Bootstrap 5 Form Pack Template
-
-*/
-
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -49,7 +38,6 @@ Bootstrap 5 Form Pack Template
 body {
   background-color: var(--body-bg-color);
   font-family: var(--body-font-family); 
-  /* overflow: hidden;  */
 }
 
 
@@ -561,141 +549,9 @@ strong {
   }
 }
 
-
-.Services .Services-box i {
-  background: #ffffff00;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  display: inline-block;
-  padding-top: 19px;
-}
-.Services .Services-box1 i {
-  background: #ffffff00;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  display: inline-block;
-  padding-top: 19px;
-}
-.Services .Services-box2 i {
-  background: #ffffff00;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  display: inline-block;
-  padding-top: 19px;
-}
-
-.Services .Services-box i:hover {
-  background: #dddddd00;
-}
-
-.Services .Services-box h3 {
-  padding: 20px 0px 20px 0px;
-  font-size: 20px;
-  line-height: 25px;
-  color: #fff;
-  display: block;
-  font-weight: 500;
-}
-
-.Services .Services-box1 h3 {
-  padding: 20px 0px 20px 0px;
-  font-size: 20px;
-  line-height: 25px;
-  color: #fff;
-  display: block;
-  font-weight: 500;
-}
-
-.Services .Services-box2 h3 {
-  padding: 20px 0px 20px 0px;
-  font-size: 20px;
-  line-height: 25px;
-  color: #fff;
-  display: block;
-  font-weight: 500;
-}
-
-.Services .Services-box {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 20px;
-  /* border: #cecfd7 solid 2px; */
-  border: #cecfd7 solid 2px;
-  padding: 40px;
-  transition: ease-in all 0.2s;
-  margin-bottom: 30px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
-.Services .Services-box1 {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 20px;
-  border: #cecfd7 solid 2px;
-  padding: 40px;
-  transition: ease-in all 0.2s;
-  margin-bottom: 30px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
-.Services .Services-box2 {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 20px;
-  border: #cecfd7 solid 2px;
-  padding: 40px;
-  transition: ease-in all 0.2s;
-  margin-bottom: 30px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
 .image-container {
   float: left;
   margin-right: 0px;
-}
-
-
-.Services .Services-box:hover {
-  /* background: #f2cc8f96; */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f2cc8f96);
-  transition: ease-in all 0.2s;
-  cursor: pointer;
-}
-
-.Services .Services-box1:hover {
-  /* background: #f2cc8f96; */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #8ff29796);
-  transition: ease-in all 0.2s;
-  cursor: pointer;
-}
-
-.Services .Services-box2:hover {
-  /* background: #f2cc8f96; */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #c28ff296);
-  transition: ease-in all 0.2s;
-  cursor: pointer;
-}
-
-.Services .Services-box p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-.Services .Services-box1 p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-.Services .Services-box2 p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
 }
 
 .custom-video {
@@ -871,7 +727,6 @@ strong {
   width: 35px;
   height: 35px;
   line-height: 36px;
-  transition: background 0.2s, color 0.2s;
 }
 
 .social-icon-link:hover {
@@ -914,9 +769,6 @@ strong {
   }
 }
 
-/* .forumnodisp {
-
-} */
 
 @media screen and (max-width: 480px) {
 
@@ -951,7 +803,6 @@ ul {
 }
 
 .main {
-  /* max-width: 100rem; */
   padding: 3em 2.5em;
 }
 
@@ -989,21 +840,18 @@ ul {
 }
 
 .card:nth-child(1) {
-  /* --hue: 165; */
   --hue: 44; 
   --saturation: 82.26%;
   --lightness: 51.37%;
 }
 
 .card:nth-child(2) {
-  /* --hue: 291.34; */
   --hue: 127.34;
   --saturation: 95.9%;
   --lightness: 61.76%;
 }
 
 .card:nth-child(3) {
-  /* --hue: 338.69; */
   --hue: 265.69;
   --saturation: 100%;
   --lightness: 48.04%;
@@ -1082,14 +930,39 @@ ul {
   box-shadow: 0 0 0 1px hsl(var(--hsl));
 }
 
-:not(.overlay) > .card {
+/* :not(.overlay) > .card {
   transition: 400ms background ease;
   will-change: background;
   backdrop-filter: blur(100px);
-}
+} */
 
 :not(.overlay) > .card:hover {
   --lightness: 95%;
   background: hsla(var(--hsl), 0.1);
   backdrop-filter: blur(100px);
+}
+
+.copy-notification {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7dff71b0;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+  from { bottom: 0; opacity: 0; }
+  to { bottom: 20px; opacity: 1; }
+}
+
+@keyframes fadeout {
+  from { bottom: 20px; opacity: 1; }
+  to { bottom: 0; opacity: 0; }
 }
