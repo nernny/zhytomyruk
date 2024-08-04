@@ -6,19 +6,15 @@ function copyToClipboard(text) {
     tempInput.select();
     document.execCommand("copy");
     document.body.removeChild(tempInput);
-    document.getElementById("copyButton").innerText = "Copied";
-                setTimeout(function() {
-                    // Revert text back to "Copy ip" after 2 seconds
-                    document.getElementById("copyButton").innerText = "Copy ip";
-                }, 2000);
+
+    showCopyNotification();
 }
-// $(document).ready(function () {
-//     $(".mouse").click(function () {
-//         $('html, body').animate({scrollTop: '+=1000px'}, 200);
-//     });   
-// });
-// $(document).ready(function () {
-//     $(".mouse1").click(function () {
-//         $('html, body').animate({scrollTop: '+=1000px'}, 200);
-//     });   
-// });
+
+function showCopyNotification() {
+    var notification = document.getElementById("copyNotification");
+    notification.style.display = "block";
+
+    setTimeout(function() {
+        notification.style.display = "none";
+    }, 3000);
+}
